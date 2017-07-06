@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>MultiScreen_Simple_Tizen</title>
+        <script type="text/javascript" src="js/msf-2.0.21.min.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    
+        <div class="left">
+        	
+        </div>
+        <div class="right">
+        	<div class="logs" id="logs"></div>
+        	<!-- div class="logs" id="messages"></div>
+        	<div id="app_canvas" >
+	            <h2 id="right_panel_header" hidden="true">Watch-TV Convergence</h2>
+		    	<object id='av-player' type='application/avplayer' ></object>
+            </div-->
+            <div id="volume_indicator" class = "hidden">
+           		<img src="img/speaker-volume-right.png" width="140" height="140"></img>
+            	<span id="volume_value">
+            	</span>
+            </div>
+            <!-- >div id="channel_indicator" class = "hidden">
+            	<span id="channel_value">
+            	</span>
+            </div>
+            <div id="description_indicator" class = "hidden ui-marquee">
+            	<span id="description_value">
+            	</span>
+            </div-->
+        </div>
+        <div id="progress" class="progress">
+            	<div id="bar" class="bar"></div>
+       		 </div>
+       		 
+    	<script type="text/javascript" src="tau/wearable/js/tau.min.js"></script>        
+        <script type="text/javascript" src="js/state-machine.js"></script>        
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
